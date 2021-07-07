@@ -4,9 +4,67 @@
   
     
     <entry>
+      <title>ThinkPHP图形化综合利用工具</title>
+      <link href="posts/54917.html"/>
+      <url>posts/54917.html</url>
+      
+        <content type="html"><![CDATA[<p>下载地址：<br><a href="https://github.com/bewhale/thinkphp_gui_tools/releases/download/V2.0/ThinkPHP.V2.0.by.jar">ThinkPHP 综合利用工具 V2.0 by 蓝鲸.jar</a></p><p>本项目是采用 JDK8 + javafx 开发的 ThinkPHP 图形化综合利用工具， 参考了其他大佬项目的部分代码。</p><p>JDK8可以直接运行，JDK11 因为去除了javafx这个依赖，需要自己再加上参数加入模块</p><p><code>java -Dfile.encoding="UTF-8" --module-path "C:\Program Files\Java\javafx-sdk-11.0.2\lib" --add-modules "javafx.controls,javafx.fxml,javafx.web" -jar "xxx.jar" </code></p><ul><li>支持大部分ThinkPHP漏洞检测,整合20多个payload</li><li>支持部分漏洞执行命令</li><li>支持单一漏洞批量检测</li><li>支持TP3和TP5自定义路径日志遍历</li><li>支持部分漏洞一键GetShell</li><li>支持设置代理和UA</li></ul><p><img src="/medias/detail/load.gif" data-original="https://raw.githubusercontents.com/bewhale/thinkphp_gui_tools/main/img.png"></p><p><img src="/medias/detail/load.gif" data-original="https://raw.githubusercontents.com/bewhale/thinkphp_gui_tools/main/img1.png"></p><p><img src="/medias/detail/load.gif" data-original="https://raw.githubusercontents.com/bewhale/thinkphp_gui_tools/main/img2.png"></p><h1 id="参考项目"><a href="#参考项目" class="headerlink" title="参考项目"></a>参考项目</h1><p><a href="https://github.com/SkyBlueEternal/thinkphp-RCE-POC-Collection">https://github.com/SkyBlueEternal/thinkphp-RCE-POC-Collection</a><br><a href="https://github.com/Lucifer1993/TPscan">https://github.com/Lucifer1993/TPscan</a><br><a href="https://github.com/fupinglee/JavaTools">https://github.com/fupinglee/JavaTools</a><br><a href="https://github.com/xinyu2428/TDOA_RCE">https://github.com/xinyu2428/TDOA_RCE</a>  </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> thinkphp </tag>
+            
+            <tag> 图形化 </tag>
+            
+            <tag> 命令执行 </tag>
+            
+            <tag> getshell </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Github部分网站无法访问解决办法</title>
+      <link href="posts/7204.html"/>
+      <url>posts/7204.html</url>
+      
+        <content type="html"><![CDATA[<p>国内大部分地方无法访问以下域名</p><ul><li>*.github.io </li><li>raw.githubusercontent.com</li></ul><p>原因大都是是国内运营商DNS污染, ping一些域名可以发现,<br>域名往往被指向了  127.0.0.1, 或者直接提示找不到主机</p><p>修改本地hosts文件的话，遇到一个新的域名，又要添加一条新纪录，稍显麻烦，</p><p>所有我们直接修改本机的DNS地址，一劳永逸。</p><p>修改完DNS地址后，点击高级查看是否还有其他的DNS地址，删除掉。</p><p>然后打开cmd， 执行 <code>ipconfig /flushdns</code> 清除缓存</p><p>如下图：</p><p><img src="/medias/detail/load.gif" data-original="https://raw.githubusercontents.com/bewhale/img/master/img20210707080127.png" alt="屏幕截图 2021-07-06 030038"></p><p>一些常用的DNS地址：</p><pre class="line-numbers language-none"><code class="language-none">114DNS首选：114.114.114.114备选：114.114.114.115Google DNS8.8.8.88.8.4.4阿里 AliDNS首选：233.5.5.5备选：223.6.6.6<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>或者使用图形化工具来一键测试，修改，不要忘记在高级里面把多余的DNS地址删除掉。</p><p> <a href="https://www.sordum.org/7952/dns-jumper-v2-2/">dns-jumper-v2-2/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 经验之谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GitHub </tag>
+            
+            <tag> DNS污染 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>essay-life</title>
-      <link href="posts/980.html"/>
-      <url>posts/980.html</url>
+      <link href="posts/986.html"/>
+      <url>posts/986.html</url>
       
         <content type="html"><![CDATA[<div class="ipage">    <div class="ititle">节选自《你若安好便是晴天》- 前言</div>    <div class="izhengwen">        <p>生活，有时感觉莫名的心烦。心烦的时候，最好的是沉默。</p>        <p>不必喝酒，出去走走，那小路和树林，那天空和海滩，那山风和淡云，就在身旁；</p>        <p>不必多怨，言多不逊，执一本书，在阳光下，微笑着面对一切，聆听一切；</p>        <p>不必伤怀，曲折有度，也许过了就算了，算了就消失了。</p>        <p>心烦，其实只是人的一种心情，看淡了，就习惯了。</p>        <p>生活，有时真的让人无语，令人心碎。</p>        <p>只是，既是自己选择的路，跪着也要走下去。</p>        <p>自己扛下的事，留着泪也要做好。</p>        <p>而有些情，舍不得也得放下，哪怕心再痛再苦。</p>        <p>其实，缘来缘去的个中滋味，只有岁月懂得，也只有自己深深懂得!</p>        <p>生活，有时候其实很简单。</p>        <p>生活，不过是一份发自内心的微笑；</p>        <p>是一种清淡如水的心态，对苦难，对幸福，对整个人生；</p>        <p>更是一本永远也读不完的书，有故事，有梦想，有难以言说的情怀。</p>        <p>倘若有天，在一个阳光温热的午后，树荫下，你会发现：净是如此美丽 !</p>        <p>亲爱的，很多时候不是生活抛弃了你，而是你抛弃了生活本身。</p>    </div></div>]]></content>
       
