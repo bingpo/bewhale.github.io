@@ -58,7 +58,7 @@
   </url>
   
   <url>
-    <loc>https://bewhale.github.io/contact/index.html</loc>
+    <loc>https://bewhale.github.io/categories/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
     
@@ -72,7 +72,7 @@
   </url>
   
   <url>
-    <loc>https://bewhale.github.io/categories/index.html</loc>
+    <loc>https://bewhale.github.io/contact/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
     
@@ -100,14 +100,14 @@
   </url>
   
   <url>
-    <loc>https://bewhale.github.io/rewardModal/index.html</loc>
+    <loc>https://bewhale.github.io/tags/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
     
   </url>
   
   <url>
-    <loc>https://bewhale.github.io/tags/index.html</loc>
+    <loc>https://bewhale.github.io/rewardModal/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
     
@@ -165,6 +165,20 @@
   </url>
   
   <url>
+    <loc>https://bewhale.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2021-07-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bewhale.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/</loc>
+    <lastmod>2021-07-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://bewhale.github.io/tags/thinkphp/</loc>
     <lastmod>2021-07-10</lastmod>
     <changefreq>daily</changefreq>
@@ -187,20 +201,6 @@
   
   <url>
     <loc>https://bewhale.github.io/tags/getshell/</loc>
-    <lastmod>2021-07-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bewhale.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2021-07-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bewhale.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/</loc>
     <lastmod>2021-07-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
