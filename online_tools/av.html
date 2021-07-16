@@ -27,9 +27,10 @@
             <th>系统进程</th>
             <th>杀软名称</th>
         </tr>
-		<div id="result"></div>
+		
     </thead>
-    <tbody>
+    <tbody id="td">
+		<div id="result"></div>
 	</tbody>
 </table>
 <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
@@ -53,30 +54,30 @@
   </div>
 </div>
 <script>
-function addRow(col1, col2) {
-	row.insertCell(0).innerHTML = col1;
-	row.insertCell(1).innerHTML = col2;
-}
-	
-	
 function getAVName(){
+	document.getElementById('td').innerHTML = "";
+	var flag = 1;
     var tasklist = document.getElementById('content').value;
     var re = new RegExp("(.*?)\.exe", "g");
     var tasks = tasklist.match(re);
-    var result = document.getElementById('result');
-    var htmlContent = "";
+	var tb = document.getElementById("td");
     for(i=0; i<Object.keys(avList).length; i++){
        var taskid = Object.keys(avList)[i];
        for(x=0; x<tasks.length; x++){
          if(taskid == tasks[x]){
-		     var tb = document.getElementById("tb");
 			 var row = tb.insertRow(tb.FetchRowCount);
 			 row.insertCell(0).innerHTML = taskid;
 			 row.insertCell(1).innerHTML = avList[taskid];
+			 flag = 0;
          }
        }
     }
-    result.innerHTML = htmlContent;
+	if (flag){
+	    var row = tb.insertRow(tb.FetchRowCount);
+		row.insertCell(0).innerHTML = "暂未匹配到杀软进程";
+		row.insertCell(1).innerHTML = "如有遗漏，欢迎补充。";
+	}
+
 }
 </script>
 <script>
