@@ -86,13 +86,6 @@
   </url>
   
   <url>
-    <loc>https://bewhale.github.io/friends/index.html</loc>
-    
-    <lastmod>2021-05-25</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://bewhale.github.io/av/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
@@ -107,14 +100,21 @@
   </url>
   
   <url>
-    <loc>https://bewhale.github.io/journal/index.html</loc>
+    <loc>https://bewhale.github.io/contact/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
     
   </url>
   
   <url>
-    <loc>https://bewhale.github.io/contact/index.html</loc>
+    <loc>https://bewhale.github.io/friends/index.html</loc>
+    
+    <lastmod>2021-05-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://bewhale.github.io/journal/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
     
@@ -135,6 +135,13 @@
   </url>
   
   <url>
+    <loc>https://bewhale.github.io/supervise/index.html</loc>
+    
+    <lastmod>2021-05-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://bewhale.github.io/tags/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
@@ -143,13 +150,6 @@
   
   <url>
     <loc>https://bewhale.github.io/time/index.html</loc>
-    
-    <lastmod>2021-05-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://bewhale.github.io/supervise/index.html</loc>
     
     <lastmod>2021-05-25</lastmod>
     
