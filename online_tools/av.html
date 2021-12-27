@@ -71,7 +71,7 @@ function getAVName(){
 			for(x=0; x<tasks.length; x++){
 			  if(taskid.toLowerCase() == tasks[x].toLowerCase()){
 				 var row = tb.insertRow(tb.FetchRowCount);
-				 row.insertCell(0).innerHTML = taskid;
+				 row.insertCell(0).innerHTML = tasks[x];
 				 row.insertCell(1).innerHTML = avList[taskid];
 				 flag = 0;
 			 }
